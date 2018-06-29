@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lanparty.calendify">
+
+    <application
+        android:allowBackup="true"
+        android:backupAgent=".MyBackupAgent"
+        android:restoreAnyVersion="true"
+        android:icon="@mipmap/icona"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <meta-data android:name="com.google.android.backup.api_key"
+            android:value="AEdPqrEAAAAIdtnG_4iNjV9aScgKgbOeWhKWMBGI1kivfUuC4w" />
+
+        <activity android:name=".CalendifyActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".TextActivity"
+            android:parentActivityName=".CalendifyActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".TextActivity" />
+        </activity>
+        <activity
+            android:name=".emotionActivity"
+            android:parentActivityName=".CalendifyActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".emotionActivity" />
+        </activity>
+    </application>
+
+</manifest>

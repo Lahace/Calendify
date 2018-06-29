@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Calendify</string>
+    <string name="eventButton">Aggiungi evento</string>
+    <string name="day1">LUN</string>
+    <string name="day2">MAR</string>
+    <string name="day3">MER</string>
+    <string name="day4">GIO</string>
+    <string name="day5">VEN</string>
+    <string name="day6">SAB</string>
+    <string name="day7">DOM</string>
+    <string name="month1">GENNAIO</string>
+    <string name="month2">FEBBRAIO</string>
+    <string name="month3">MARZO</string>
+    <string name="month4">APRILE</string>
+    <string name="month5">MAGGIO</string>
+    <string name="month6">GIUGNO</string>
+    <string name="month7">LUGLIO</string>
+    <string name="month8">AGOSTO</string>
+    <string name="month9">SETTEMBRE</string>
+    <string name="month10">OTTOBRE</string>
+    <string name="month11">NOVEMBRE</string>
+    <string name="month12">DICEMBRE</string>
+    <string name="textHint">Scrivi un commento su questa giornata!</string>
+    <string name="saveBtn">Salva memo</string>
+    <string name="delBtn">Elimina memo</string>
+    <string name="emotion1">Molto felice</string>
+    <string name="emotion2">Felice</string>
+    <string name="emotion3">Neutro</string>
+    <string name="emotion4">Triste</string>
+    <string name="emotion5">Molto triste</string>
+</resources>
